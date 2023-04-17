@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "uamis-321-pa4/1.0.0": {
+        "runtime": {
+          "uamis-321-pa4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "uamis-321-pa4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
