@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rosal\\onedrive\\documents\\source\\repos\\spring2023mis321\\uamis-321-pa4\\uamis-321-pa4.csproj": {}
+    "C:\\Users\\rosal\\OneDrive\\Documents\\source\\repos\\Spring2023MIS321\\UAMIS-321-pa4\\uamis-321-pa4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rosal\\onedrive\\documents\\source\\repos\\spring2023mis321\\uamis-321-pa4\\uamis-321-pa4.csproj": {
+    "C:\\Users\\rosal\\OneDrive\\Documents\\source\\repos\\Spring2023MIS321\\UAMIS-321-pa4\\uamis-321-pa4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rosal\\onedrive\\documents\\source\\repos\\spring2023mis321\\uamis-321-pa4\\uamis-321-pa4.csproj",
+        "projectUniqueName": "C:\\Users\\rosal\\OneDrive\\Documents\\source\\repos\\Spring2023MIS321\\UAMIS-321-pa4\\uamis-321-pa4.csproj",
         "projectName": "uamis-321-pa4",
-        "projectPath": "C:\\Users\\rosal\\onedrive\\documents\\source\\repos\\spring2023mis321\\uamis-321-pa4\\uamis-321-pa4.csproj",
+        "projectPath": "C:\\Users\\rosal\\OneDrive\\Documents\\source\\repos\\Spring2023MIS321\\UAMIS-321-pa4\\uamis-321-pa4.csproj",
         "packagesPath": "C:\\Users\\rosal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rosal\\onedrive\\documents\\source\\repos\\spring2023mis321\\uamis-321-pa4\\obj\\",
+        "outputPath": "C:\\Users\\rosal\\OneDrive\\Documents\\source\\repos\\Spring2023MIS321\\UAMIS-321-pa4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rosal\\AppData\\Roaming\\NuGet\\NuGet.Config",
