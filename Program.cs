@@ -60,6 +60,7 @@ namespace UAMIS_321_pa4
             string player2Name = Console.ReadLine();
 
             //Start the game
+            System.Console.WriteLine("");
             System.Console.WriteLine("Let the battle begin!");
             System.Console.WriteLine($"{player1Name} ({player1Character.GetType().Name}) vs. {player2Name} ({player2Character.GetType().Name})");
             Console.WriteLine();
@@ -80,14 +81,22 @@ namespace UAMIS_321_pa4
                 int damageDealt = attacker.Attack(defender);
                 System.Console.WriteLine($"{attacker.Name} attacks {defender.Name} for {damageDealt} damage.");
 
+                //Stop attacking if defeated
+                    if (defender.Health <= 0)
+                    {
+                        break;
+                    }
                 //Display defender's stats
                 System.Console.WriteLine($"{defender.Name} ({defender.Health} HP, {defender.AttackStrength} AP, {defender.DefensivePower} DP)");
+
 
                 //Switch attacking role
                 Character temp = attacker;
                 attacker = defender;
                 defender = temp;
+
             }
+
             //Winner!
             DeclareWinner(player1Character, player2Character);
             Console.ReadLine();
@@ -104,9 +113,16 @@ namespace UAMIS_321_pa4
             {
                 System.Console.WriteLine($"{player1Character.Name} ({player1Character.GetType().Name}): {player1Character.GetStats()}");
                 System.Console.WriteLine($"{player2Character.Name} ({player2Character.GetType().Name}): {player2Character.GetStats()}");
-
-                Console.ReadLine();
+                System.Console.WriteLine($"{player1Character.Name} wins!");
             }
+            else
+            {
+                System.Console.WriteLine($"{player2Character.Name} ({player2Character.GetType().Name}): {player2Character.GetStats()}");
+                System.Console.WriteLine($"{player1Character.Name} ({player1Character.GetType().Name}): {player1Character.GetStats()}");
+                System.Console.WriteLine($"{player2Character.Name} wins!");
+            }
+            Console.ReadLine();
         }
+                
     }
 }
